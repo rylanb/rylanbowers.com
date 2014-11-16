@@ -1,14 +1,49 @@
-%header.navbar{role: "banner"}
+%noscript
+  %link{href: "/css/skel-noscript.css", rel: "stylesheet"}/
+  %link{href: "/css/style.css", rel: "stylesheet"}/
+  %link{href: "/css/style-wide.css", rel: "stylesheet"}/
+  %link{href: "/css/style-noscript.css", rel: "stylesheet"}/
+/[if lte IE 8] <link rel="stylesheet" href="/css/ie8.css" />
 
-  .row.primary-nav
-    %nav.container
-      .logo.pull-left
-        %a{:href => "/"}
-          %img{src: "/img/rylan_bowers_logo.png", alt: "Rylan Bowers' Logo"}/
-      %ul.nav.clearfix.inline-nav.pull-right{role: "navigation"}
-        %li.resume-link
-          %a{href: "#Resume"} Resume
-        %li.portfolio-link
-          %a{href: "#Portfolio"} Portfolio
-        %li.contact-link
-          %a{href: "#Contact"} Contact
+
+#header
+  .inner
+    %header
+      %h1
+        %a#logo{href: "#"} Rylan Bowers
+      %hr/
+      %span.byline Ruby on Rails / HTML / CSS / JavaScript
+    %footer
+      %a.button.circled.scrolly{href: "#banner"} View
+
+  %nav#nav
+    %ul
+      %li.home-link
+        %a.scrolly{href: "#home"} Home
+      / %li
+      /   %span Dropdown
+      /   %ul
+
+      /     %li
+      /       %a{href: "#"} Etiam dolore nisl
+      /     %li
+      /       %span And a submenu …
+      /       %ul
+      /         %li
+      /           %a{href: "#"} Lorem ipsum dolor
+      /         %li
+      /           %a{href: "#"} Phasellus consequat
+      /         %li
+      /           %a{href: "#"} Magna phasellus
+      /         %li
+      /           %a{href: "#"} Etiam dolore nisl
+      /     %li
+      /       %a{href: "#"} Veroeros feugiat
+      %li.portfolio-link
+        %a.scrolly{href: "#banner"} Portfolio
+      %li.about-link
+        %a.scrolly{href: "#about"} About
+      %li.resume-link
+        %a.scrolly{href: "#resume"} Resume
+      %li.contact-link
+        %a.scrolly{href: "#contact"} Contact

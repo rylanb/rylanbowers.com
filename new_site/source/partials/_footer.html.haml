@@ -1,10 +1,118 @@
-%footer.navbar{role: "banner"}
-  %ul.nav.clearfix.inline-nav.pull-right{role: "navigation"}
-    %li.resume-link
-      %a{href: "#Resume"} Resume
-    %li.portfolio-link
-      %a{href: "#Portfolio"} Portfolio
-    %li.contact-link
-      %a{href: "#Contact"} Contact
+/ Footer
+#footer{role: "banner"}
+  .container{role: "navigation"}
+    .row
+      / Tweets
+      %section.4u
+        %header
+          %h2.icon.fa-twitter.circled
+            %span Tweets
+        %ul.divided
+          %li
+            %article.tweet
+              Amet nullam fringilla nibh nulla convallis tique ante sociis accumsan.
+              %span.timestamp 5 minutes ago
+          %li
+            %article.tweet
+              Hendrerit rutrum quisque.
+              %span.timestamp 30 minutes ago
+          %li
+            %article.tweet
+              Curabitur donec nulla massa laoreet nibh. Lorem praesent montes.
+              %span.timestamp 3 hours ago
+          %li
+            %article.tweet
+              Lacus natoque cras rhoncus curae dignissim ultricies. Convallis orci aliquet.
+              %span.timestamp 5 hours ago
+      / Posts
+      %section.4u
+        %header
+          %h2.icon.fa-cloud-download.circled
+            %span Files
+        %ul.divided
+          %li
+            %article.post.stub
+              %header
+                %h3
+                  %a{href: "/pdfs/Rylan_Bowers_Resume.pdf"} Full-Time Employment Resume
+              %span.timestamp College to April 2012
+          %li
+            %article.post.stub
+              %header
+                %h3
+                  %a.scrolly{href: "#portfolio"} Freelance Portfolio
+              %span.timestamp April 2012 to Present
 
-  %p &copy; Rylan Bowers. All rights reserved.
+      / Photos
+      %section.4u
+        %header
+          %h2.icon.fa-camera.circled
+            %span Photos
+        .row.quarter.no-collapse
+          .6u
+            %a.image.full{href: "//mdomaradzki.deviantart.com/art/Air-Lounge-385212062"}
+              %img{:alt => "", :src => "images/pic10.jpg"}/
+          .6u
+            %a.image.full{href: "//mdomaradzki.deviantart.com/art/Paris-City-Streets-II-382623606"}
+              %img{:alt => "", :src => "images/pic11.jpg"}/
+        .row.quarter.no-collapse
+          .6u
+            %a.image.full{href: "//mdomaradzki.deviantart.com/art/Trainride-Visions-383309985"}
+              %img{:alt => "", :src => "images/pic12.jpg"}/
+          .6u
+            %a.image.full{href: "//mdomaradzki.deviantart.com/art/Paris-Metro-382623851"}
+              %img{:alt => "", :src => "images/pic13.jpg"}/
+        .row.quarter.no-collapse
+          .6u
+            %a.image.full{href: "//mdomaradzki.deviantart.com/art/Cliffs-of-Coogee-II-366961860"}
+              %img{:alt => "", :src => "images/pic14.jpg"}/
+          .6u
+            %a.image.full{href: "//mdomaradzki.deviantart.com/art/Stormy-Coast-VII-366561367"}
+              %img{:alt => "", :src => "images/pic15.jpg"}/
+    %hr/
+    .row
+      .12u
+        / Contact
+        %section#contact.contact
+          %header
+            %h3 Where to find me
+          %p I'd love to have a conversation with you!
+          %ul.icons
+            %li
+              %a.icon.fa-envelope{href: "mailto:rylan.bowers@gmail.com"}
+                %span.label Email
+            %li
+              %a.icon.fa-mobile{href: "tel:760-815-5611"}
+                %span.label Telephone
+            %li
+              %a.icon.fa-github-alt{href: "//github.com/rylanb"}
+                %span.label Github
+            %li
+              %a.icon.fa-linkedin{href: "//www.linkedin.com/pub/rylan-bowers/6/320/360/"}
+                %span.label Linkedin
+            %li
+              %a.icon.fa-twitter{href: "//twitter.com/rylanb"}
+                %span.label Twitter
+            %li
+              %a.icon.fa-facebook{href: "https://www.facebook.com/rylan.bowers"}
+                %span.label Facebook
+            %li
+              %a.icon.fa-google-plus{href: "//google.com/+RylanBowers"}
+                %span.label Google+
+            %li
+              %a.icon.fa-soundcloud{href: "//soundcloud.com/prove1"}
+                %span.label SoundCloud
+        / Copyright
+        .copyright
+          %ul.menu
+            %li &copy; Rylan Bowers. All rights reserved.
+            %li.home-link
+              %a.scrolly{href: "#home"} Top
+            %li.portfolio-link
+              %a.scrolly{href: "#portfolio"} Portfolio
+            %li.home-link
+              %a.scrolly{href: "#about"} About
+            %li.resume-link
+              %a.scrolly{href: "#resume"} Resume
+            %li.contact-link
+              %a.scrolly{href: "#contact"} Contact
