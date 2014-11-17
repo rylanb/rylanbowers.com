@@ -151,6 +151,10 @@
     border-top: solid 1px rgba(128,128,128,0.2);
     border-bottom: solid 1px rgba(128,128,128,0.2);
   }
+  hr.subtle {
+    margin-bottom: 4em;
+    top: 1.5em;
+  }
 
     hr:before,
     hr:after
