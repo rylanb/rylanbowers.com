@@ -664,16 +664,16 @@
 
     .icon.circled
     {
-      position: relative;
-      display: inline-block;
-      background: #2b252c;
       color: #fff;
-      border-radius: 100%;
-      width: 3em;
-      height: 3em;
+      background: #2b252c;
+      display: inline-block;
+      font-size: 1.25em;
+      position: relative;
+      height: 2.5em;
       line-height: 3.25em;
       text-align: center;
-      font-size: 1.25em;
+      width: 2.5em;
+      border-radius: 100%;
     }
 
       header .icon.circled
@@ -780,15 +780,20 @@
     #header .button
     {
       display: inline-block;
-      border-radius: 100%;
-      width: 4.5em;
-      height: 4.5em;
-      line-height: 4.5em;
-      text-align: center;
       font-size: 1.25em;
+      height: 4em;
+      line-height: 4em;
       padding: 0;
+      text-align: center;
+      width: 4em;
+      border-radius: 100%;
     }
 
+    #header .button span.icon {
+      display: inline-block;
+      font-size: 1.75em;
+      margin: 5px 0 0 5px;
+    }
     #header header
     {
       display: inline-block;
