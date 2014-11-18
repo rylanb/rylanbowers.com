@@ -796,6 +796,10 @@
       font-size: 1.75em;
       margin: 5px 0 0 5px;
     }
+
+    #header .button span.icon:before {
+      top: 0;
+    }
     #header header
     {
       display: inline-block;
