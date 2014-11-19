@@ -1254,3 +1254,16 @@
       {
         text-align: center;
       }
+
+/*********************************************************************************/
+/* Other Clients                                                                 */
+/*********************************************************************************/
+#other_clients {
+  overflow: hidden;
+  padding: 1em 0 4em 0;
+  text-align: center;
+}
+
+#other_clients .row {
+  margin-bottom: 40px;
+}
