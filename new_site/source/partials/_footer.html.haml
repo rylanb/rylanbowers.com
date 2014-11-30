@@ -7,11 +7,9 @@
         %header
           %h2.icon.fa-twitter.circled
             %span Tweets
-        %ul.divided
-          %li
-            %article.tweet
-              Still to come...
-              //%span.timestamp 5 minutes ago
+        %a.twitter-timeline{ href: "https://twitter.com/rylanb", width: "100%", data: {"widget-id" => "539120089396957184", chrome: "noborders transparent noscrollbar noheader"}} Tweets by @rylanb
+        :javascript
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
       / Posts
       %section.4u
