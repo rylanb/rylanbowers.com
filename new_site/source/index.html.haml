@@ -16,6 +16,15 @@ page_name: "homepage"
 .carousel
   .reel
     %article
+      %a.image.featured{href: "http://www.modmarket.com/"}
+        %img{alt: "Modern Market Screenshot", src: "images/portfolio/modern-market.jpg"}/
+      %header
+        %h3
+          %a{href: "http://www.modmarket.com/"} Modern Market
+      %p HTML / CSS / JavaScript / Ruby on Rails
+      %p
+        Responsive / Bootstrap
+    %article
       %a.image.featured{href: "http://www.eggstrategy.com/"}
         %img{alt: "Egg Strategy Screenshot", src: "images/portfolio/eggstrategy.png"}/
       %header
@@ -23,7 +32,7 @@ page_name: "homepage"
           %a{href: "http://www.eggstrategy.com/"} Egg Strategy
       %p HTML / CSS / JavaScript / Craft CMS
       %p
-        Responsive / Adaptive /
+        Responsive /
         %a{:href => "http://goodapples.com/"} Good Apples
 
     %article
@@ -34,8 +43,20 @@ page_name: "homepage"
           %a{href: "http://www.urbanmattress.com/"} Urban Mattress
       %p HTML / CSS / JavaScript / Craft CMS
       %p
-        Responsive / Adaptive /
+        Responsive /
         %a{:href => "http://goodapples.com/"} Good Apples
+
+    %article
+      %a.image.featured{:href => "http://www.fallingfruit.org/"}
+        %img{alt: "Falling Fruit Mobile App Screenshot", src: "images/portfolio/falling-fruit.jpg"}/
+      %header
+        %h3
+          %a{href: "http://www.fallingfruit.org/"} Falling Fruit Mobile App
+      %p
+        HTML / CSS /
+        %a{:href => "http://ionicframework.com/", target: "_blank"} Ionic Framework
+      %p
+        Mobile Application
 
     %article
       %a.image.featured{href: "http://trip30.com/"}
@@ -47,11 +68,11 @@ page_name: "homepage"
       %p Responsive / Adaptive
 
     %article
-      .image.featured
+      %a.image.featured{:href => "https://thoughtsontime.com/"}
         %img{alt: "Thoughts on Time Screenshot", src: "images/portfolio/thoughts_on_time.png"}/
       %header
         %h3
-          Thoughts on Time
+          %a{:href => "https://thoughtsontime.com/"} Thoughts on Time
       %p Ruby on Rails / JavaScript
       %p HTML / CSS / Responsive
 
