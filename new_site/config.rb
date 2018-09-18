@@ -51,7 +51,7 @@ set :js_dir, 'js'
 
 set :images_dir, 'img'
 
-set :haml, { :format => :html5 }
+set :haml, { format: :html5 }
 
 # Build-specific configuration
 configure :build do
@@ -59,7 +59,7 @@ configure :build do
   # activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   # activate :asset_hash
