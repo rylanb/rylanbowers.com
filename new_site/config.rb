@@ -70,3 +70,7 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+after_build do |builder|
+  FileUtils.cp_r 'source/_redirects', 'build'
+end
