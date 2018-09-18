@@ -1,0 +1,7 @@
+# Redirect domain aliases to primary domain
+http://rylanb.io/* https://rylanbowers.com/:splat 301!
+http://rylanb.com/* https://rylanbowers.com/:splat 301!
+http://rylanbowers.com/* https://rylanbowers.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+http://gifted-golick-8981b0.netlify.com/* https://rylanbowers.com/:splat 301!
