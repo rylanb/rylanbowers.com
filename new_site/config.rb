@@ -11,7 +11,7 @@ set :haml, { format: :html5 }
 configure :build do
   activate :minify_css
   activate :minify_javascript
-  activate :asset_hash # Enable cache buster
+  # activate :asset_hash # Enable cache buster
 end
 
 after_build do |builder|

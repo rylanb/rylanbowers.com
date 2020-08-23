@@ -12,3 +12,6 @@ test/tmp
 test/version_tmp
 tmp
 vendor
+
+# Local Netlify folder
+.netlify
