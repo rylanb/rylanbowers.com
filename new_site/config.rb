@@ -14,7 +14,6 @@ configure :build do
   activate :minify_javascript
   # activate :asset_hash # Enable cache buster
   activate :gzip
-  activate :imageoptim
 end
 
 after_build do |builder|
