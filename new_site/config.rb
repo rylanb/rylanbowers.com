@@ -6,7 +6,7 @@ end
 config[:css_dir] = 'css'
 config[:js_dir] = 'js'
 config[:images_dir] = 'images'
-set :haml, { format: :html5 }
+set :haml, format: :html5
 
 # Build-specific configuration
 configure :build do
