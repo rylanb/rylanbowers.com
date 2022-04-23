@@ -1,4 +1,8 @@
 # Reload the browser automatically whenever files change
+activate :autoprefixer do |prefix|
+  prefix.browsers = "last 2 versions"
+end
+
 configure :development do
   activate :livereload
 end
