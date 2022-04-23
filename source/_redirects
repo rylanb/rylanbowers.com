@@ -1,0 +1,22 @@
+# Redirect domain aliases to primary domain
+http://text.rylanb.io/ https://twilio-textris.herokuapp.com/ 301!
+http://rylanb.io/* https://rylanbowers.com/:splat 301!
+http://rylanb.com/* https://rylanbowers.com/:splat 301!
+http://rylanbowers.com/* https://rylanbowers.com/:splat 301!
+http://rescosolutions.com/* https://rylanbowers.com/:splat 301!
+
+https://rylanb.io/* https://rylanbowers.com/:splat 301!
+https://rylanb.com/* https://rylanbowers.com/:splat 301!
+https://rescosolutions.com/* https://rylanbowers.com/:splat 301!
+
+http://www.rylanb.io/* https://rylanbowers.com/:splat 301!
+http://www.rylanb.com/* https://rylanbowers.com/:splat 301!
+http://www.rylanbowers.com/* https://rylanbowers.com/:splat 301!
+http://www.rescosolutions.com/* https://rylanbowers.com/:splat 301!
+
+https://www.rylanb.io/* https://rylanbowers.com/:splat 301!
+https://www.rylanb.com/* https://rylanbowers.com/:splat 301!
+https://www.rylanbowers.com/* https://rylanbowers.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+http://gifted-golick-8981b0.netlify.com/* https://rylanbowers.com/:splat 301!

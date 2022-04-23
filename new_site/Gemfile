@@ -1,8 +1,0 @@
-source 'http://rubygems.org'
-
-gem 'middleman', '~> 4.2'
-gem 'middleman-autoprefixer', '~> 2.7'
-gem 'middleman-livereload'
-gem 'mini_racer'
-gem 'builder'
-gem 'middleman-imageoptim', git: 'https://github.com/plasticine/middleman-imageoptim', branch: 'master'
